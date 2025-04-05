@@ -3,28 +3,14 @@ import PropTypes from 'prop-types';
 
 // Validates the first half of an email address.
 const validateText = (text) => {
-  // NOTE: Passes RFC 5322 but not tested on google's standard.
+  // NOTE: Passes RFC 5322 but not tested on Google's standard.
   // eslint-disable-next-line no-useless-escape
-  const re = /^(([^<>()\[\]\.,;:\s@\"]+(\.[^<>()\[\]\.,;:\s@\"]+)*)|(\".+\"))$/;
+  const re = /^(([^<>()\[\].,;:\s@"]+(\.[^<>()\[\].,;:\s@"]+)*)|(".+"))$/;
   return re.test(text) || text.length === 0;
 };
 
 const messages = [
-  'hi',
-  'hello',
-  'hola',
-  'you-can-email-me-at-literally-anything! Really',
-  'well, not anything. But most things',
-  'like-this',
-  'or-this',
-  'but not this :(  ',
-  'you.can.also.email.me.with.specific.topics.like',
-  'just-saying-hi',
-  'please-work-for-us',
-  'help',
-  'admin',
-  'or-I-really-like-your-website',
-  'thanks',
+  'adi',
 ];
 
 const useInterval = (callback, delay) => {
@@ -85,9 +71,9 @@ const EmailLink = ({ loopMessage }) => {
       onMouseEnter={() => setIsActive(false)}
       onMouseLeave={() => idx < messages.length && setIsActive(true)}
     >
-      <a href={validateText(message) ? `mailto:${message}@mldangelo.com` : ''}>
+      <a href={validateText(message) ? `mailto:${message}@thekann.com` : ''}>
         <span>{message}</span>
-        <span>@mldangelo.com</span>
+        <span>@thekann.com</span>
       </a>
     </div>
   );
