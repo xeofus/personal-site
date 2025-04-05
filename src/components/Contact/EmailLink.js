@@ -11,6 +11,7 @@ const validateText = (text) => {
 
 const messages = [
   'adi',
+  'eddie',
 ];
 
 const useInterval = (callback, delay) => {
@@ -80,7 +81,7 @@ const EmailLink = ({ loopMessage }) => {
 };
 
 EmailLink.defaultProps = {
-  loopMessage: false,
+  loopMessage: true,
 };
 
 EmailLink.propTypes = {

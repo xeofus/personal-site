@@ -41,7 +41,7 @@ describe('renders the app', () => {
   });
 
   it('should render the title', async () => {
-    expect(document.title).toBe('Adi B. Kann');
+    expect(document.title).toBe('Adi Kann');
   });
 
   it('can navigate to /about', async () => {

@@ -12,9 +12,9 @@ const SideBar = () => (
         <img src={`${PUBLIC_URL}/images/me.jpg`} alt="" />
       </Link>
       <header>
-        <h2>Adi B. Kann</h2>
+        <h2>Adi (Eddie) Kann</h2>
         <p>
-          <a href="mailto:adi@thekann.com">adi@thekann.com</a>
+          <a href="https://thekann.com">thekann.com</a>
         </p>
       </header>
     </section>
@@ -22,21 +22,15 @@ const SideBar = () => (
     <section className="blurb">
       <h2>About</h2>
       <p>
-        Hi, I&apos;m Adi (Eddie) Kann. I am a{' '}
+        Hi, I&apos;m Adi and I am a{' '}
         <a href="https://fit.edu/">Florida Tech</a> graduate student,
         ISC2 Cyber Certified and proud Airman in United States Air Force.
       </p>
       <ul className="actions">
         <li>
-          {!window.location.pathname.includes('/resume') ? (
-            <Link to="/resume" className="button">
-              Learn More
-            </Link>
-          ) : (
-            <Link to="/about" className="button">
-              About Me
-            </Link>
-          )}
+          <Link to="/resume" className="button">
+            Learn More
+          </Link>
         </li>
       </ul>
     </section>
