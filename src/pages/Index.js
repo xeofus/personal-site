@@ -14,13 +14,23 @@ const Index = () => (
       <header>
         <div className="title">
           <h2>
-            <Link to="/">About this site</Link>
+            <Link to="/">Welcome to my website</Link>
           </h2>
         </div>
       </header>
       <p>
         {' '}
-        Welcome to my website. You can check out my{' '}
+        I’m a transitioning U.S. Air Force professional with an active
+        Secret Clearance and a passion for securing mission-critical
+        systems. Drawing on hands-on experience in Java, Linux, SQL, and
+        Cybersecurity I bring a blend of technical expertise,
+        leadership, and problem-solving to every project.<br />
+        As a Master’s in Computer Information Systems and fluent Russian
+        speaker, I’m also well-positioned to support threat intelligence or
+        translation needs.
+        <br />
+        <br />
+        You can check out my{' '}
         <Link to="/resume">resume</Link> or{' '}
         <Link to="/contact">contact</Link> me.
       </p>

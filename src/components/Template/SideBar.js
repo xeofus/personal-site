@@ -13,23 +13,20 @@ const SideBar = () => (
       </Link>
       <header>
         <h2>Adi (Eddie) Kann</h2>
-        <p>
-          <a href="https://thekann.com">thekann.com</a>
-        </p>
       </header>
     </section>
 
     <section className="blurb">
       <h2>About</h2>
       <p>
-        Hi, I&apos;m Adi and I am a{' '}
-        <a href="https://fit.edu/">Florida Tech</a> graduate student,
-        ISC2 Cyber Certified and proud Airman in United States Air Force.
+        Hi, I&apos;m Adi - a proud Airman in the United States Air Force,
+        an ISC2 Cyber Certified professional, and a graduate student at {' '}
+        <a href="https://www.fit.edu/programs/computer-information-systems-ms/">Florida Tech’s College of Engineering and Science</a>
       </p>
       <ul className="actions">
         <li>
           <Link to="/resume" className="button">
-            Learn More
+            RESUME
           </Link>
         </li>
       </ul>
@@ -38,7 +35,7 @@ const SideBar = () => (
     <section id="footer">
       <ContactIcons />
       <p className="copyright">
-        &copy; Adi B. Kann <Link to="/">thekann.com</Link>.
+        &copy; Adi B. Kann <Link to="/">adi.thekann.com</Link>.
       </p>
     </section>
   </section>

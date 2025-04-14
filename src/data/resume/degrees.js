@@ -6,6 +6,12 @@ const degrees = [
     year: 2025,
   },
   {
+    school: 'ISC2 Certificate',
+    degree: 'Certified in Cybersecurity',
+    link: 'https://www.credly.com/badges/112d8503-3c20-4057-bcc3-1a768081c120/linked_in_profile',
+    year: 2025,
+  },
+  {
     school: 'Institute of Economy and Finance',
     degree: 'B.S. Accounting and Business/Management',
     link: 'https://www.knu.kg/ky/en/',

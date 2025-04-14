@@ -1,5 +1,11 @@
 const courses = [
   {
+    title: 'Certified in Cybersecurity',
+    number: 'ISC2',
+    link: 'https://www.credly.com/badges/112d8503-3c20-4057-bcc3-1a768081c120/linked_in_profile',
+    university: 'ISC2',
+  },
+  {
     title: 'Computer Networks for Information Specialists',
     number: 'CIS 5410',
     link: 'https://catalog.fit.edu/preview_course_nopop.php?catoid=19&coid=63262',

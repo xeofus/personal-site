@@ -17,21 +17,59 @@ const work = [
     position: 'Airman',
     url: 'https://airforce.com',
     startDate: '2023-01-23',
-    summary: 'Serving to my country',
+    summary: 'Volunteered to enlist in the armed forces as a gesture of profound respect\n'
+      + 'and dedication to serving the United States, embodying a strong sense of\n'
+      + 'patriotism and commitment to upholding the nation\'s values and security.',
     highlights: [
-      'Aim high!',
+      'Active DoD Secret Clearance',
+      'Cyber Security',
+      'Information Security',
     ],
   },
   {
     name: 'Veon',
     position: 'Senior Software Development Engineer',
     url: 'https://veon.com',
-    startDate: '2013-06-01',
+    startDate: '2019-03-01',
     endDate: '2022-09-01',
-    summary: 'System Administrating and Software Development',
+    summary: 'Directed, guided and grew a team of over 12 software engineers,\n'
+      + 'spearheading the successful delivery of four enterprise-level software solutions\n'
+      + 'within an eight-year span',
     highlights: [
-      'Redesigned engineering processes for bug tracking, meetings, and standups. Improved culture for code reviews, blameless post-mortems, and retrospectives.',
-      'Re-architected engineering hiring and onboarding processes. Recruited several strong engineers.',
+      'Linux',
+      'Java',
+      'SQL',
+    ],
+  },
+  {
+    name: 'Veon',
+    position: 'Software Engineer',
+    url: 'https://veon.com',
+    startDate: '2017-06-01',
+    endDate: '2019-03-01',
+    summary: 'Designed and developed a comprehensive banking application featuring\n'
+      + 'over 1000 integrations, including industry leaders Visa and MasterCard. This\n'
+      + 'platform enables secure transactions for over 1,000,000 users while optimizing\n'
+      + 'payment processing through seamless integration with fintech APIs',
+    highlights: [
+      'Linux',
+      'Java',
+      'SQL',
+    ],
+  },
+  {
+    name: 'Veon',
+    position: 'Senior System Administrator',
+    url: 'https://veon.com',
+    startDate: '2013-06-01',
+    endDate: '2017-06-01',
+    summary: 'Implemented the virtualization of over 500 x86 HP Gen 7 rack servers onto an\n'
+      + 'HP Blade Server-based VMware virtual farm, resulting in a 30% enhancement\n'
+      + 'in resource utilization and substantial operational cost reductions',
+    highlights: [
+      'Linux',
+      'VMware',
+      'Hardware',
     ],
   },
 ];
