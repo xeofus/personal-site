@@ -34,7 +34,7 @@ const work = [
     endDate: '2022-09-01',
     summary: 'Directed, guided and grew a team of over 12 software engineers,\n'
       + 'spearheading the successful delivery of four enterprise-level software solutions\n'
-      + 'within an eight-year span',
+      + 'within an three-year span',
     highlights: [
       'Linux',
       'Java',
