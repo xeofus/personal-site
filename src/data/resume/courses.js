@@ -1,5 +1,11 @@
 const courses = [
   {
+    title: 'Linux+ ce',
+    number: 'CompTIA',
+    link: 'https://www.credly.com/badges/7ac6b4a7-1f6f-49df-8c05-5198bde68f93/public_url',
+    university: 'CompTIA',
+  },
+  {
     title: 'Certified in Cybersecurity',
     number: 'ISC2',
     link: 'https://www.credly.com/badges/112d8503-3c20-4057-bcc3-1a768081c120/linked_in_profile',

@@ -19,8 +19,7 @@ const SideBar = () => (
     <section className="blurb">
       <h2>About</h2>
       <p>
-        Hi, I&apos;m Eddie - a proud Airman in the United States Air Force,
-        an ISC2 Cyber Certified professional, and a graduate student at {' '}
+        Hi, I&apos;m Eddie - a proud Airman in the United States Air Force and a graduate student at {' '}
         <a href="https://www.fit.edu/programs/computer-information-systems-ms/">Florida Tech’s College of Engineering and Science</a>
       </p>
       <ul className="actions">
