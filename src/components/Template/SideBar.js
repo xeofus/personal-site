@@ -12,7 +12,7 @@ const SideBar = () => (
         <img src={`${PUBLIC_URL}/images/me.jpg`} alt="" />
       </Link>
       <header>
-        <h2>Eddie (Adi) Kann</h2>
+        <h3>Adilet &quot;Eddie&quot; Kann</h3>
       </header>
     </section>
 
@@ -34,7 +34,7 @@ const SideBar = () => (
     <section id="footer">
       <ContactIcons />
       <p className="copyright">
-        &copy; Eddie (Adi) Kann <Link to="/">adi.thekann.com</Link>.
+        &copy; Adilet &quot;Eddie&quot; Kann <Link to="/">eddie.thekann.com</Link>.
       </p>
     </section>
   </section>

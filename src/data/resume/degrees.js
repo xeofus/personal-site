@@ -1,13 +1,19 @@
 const degrees = [
   {
     school: 'Florida Institute Of Technology',
-    degree: 'M.S. Computer Information Systems',
+    degree: 'M.S. Computer Information Systems student',
     link: 'https://fit.edu',
     year: 2025,
   },
   {
-    school: 'CompTIA Certification',
-    degree: 'Linux+ ce',
+    school: 'CompTIA',
+    degree: 'Security+ CE',
+    link: 'https://www.credly.com/badges/18ed792d-a9f0-4145-be55-f7a6c9de06fa/public_url',
+    year: 2025,
+  },
+  {
+    school: 'CompTIA',
+    degree: 'Linux+ CE',
     link: 'https://www.credly.com/badges/7ac6b4a7-1f6f-49df-8c05-5198bde68f93/public_url',
     year: 2025,
   },

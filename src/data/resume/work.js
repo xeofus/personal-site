@@ -14,12 +14,13 @@
 const work = [
   {
     name: 'US Air Force',
-    position: 'Airman',
+    position: 'Maintenance',
     url: 'https://airforce.com',
-    startDate: '2023-01-23',
-    summary: 'Volunteered to enlist in the armed forces as a gesture of profound respect\n'
-      + 'and dedication to serving the United States, embodying a strong sense of\n'
-      + 'patriotism and commitment to upholding the nation\'s values and security.',
+    startDate: '2023-02-07',
+    summary:
+        '• Conducted engineering troubleshooting methods to maintain mission-critical assets supporting USAF operations.'
+        + '• Completed inspections on 1.2K safety items, directly impacting asset reliability during the \'24 Validation Exercise.\n'
+        + '• Applied and executed data-driven off-hours maintenance schedules, reducing downtime and improving fleet reliability.',
     highlights: [
       'Active DoD Secret Clearance',
       'Cyber Security',
@@ -32,13 +33,15 @@ const work = [
     url: 'https://veon.com',
     startDate: '2019-03-01',
     endDate: '2022-09-01',
-    summary: 'Directed, guided and grew a team of over 12 software engineers,\n'
-      + 'spearheading the successful delivery of four enterprise-level software solutions\n'
-      + 'within an three-year span',
+    summary:
+        '• Directed a team of over 12 software engineers, fostering a collaborative environment to enhance productivity.'
+        + '• Implemented agile methodologies, resulting in a 30% increase in on-time delivery of Web Services.'
+        + '• Collaborated with cross-functional teams at VEON to drive innovation in fintech solutions.',
     highlights: [
       'Linux',
       'Java',
       'SQL',
+      'Windows Server',
     ],
   },
   {
@@ -46,11 +49,11 @@ const work = [
     position: 'Software Engineer',
     url: 'https://veon.com',
     startDate: '2017-06-01',
-    endDate: '2019-03-01',
-    summary: 'Designed and developed a comprehensive banking application featuring\n'
-      + 'over 1000 integrations, including industry leaders Visa and MasterCard. This\n'
-      + 'platform enables secure transactions for over 1,000,000 users while optimizing\n'
-      + 'payment processing through seamless integration with fintech APIs',
+    endDate: '2019-02-01',
+    summary:
+        '• Architected a resilient e-wallet application, processing over 500,000 transactions monthly.'
+        + '• Ensured secure payment processing with a 99.9% uptime rate through advanced crypto protocols.'
+        + '• Continuously refined system performance, enhancing user experience and reliability.',
     highlights: [
       'Linux',
       'Java',
@@ -59,16 +62,18 @@ const work = [
   },
   {
     name: 'Veon',
-    position: 'Senior System Administrator',
+    position: 'Software Systems Engineer',
     url: 'https://veon.com',
     startDate: '2013-06-01',
-    endDate: '2017-06-01',
-    summary: 'Implemented the virtualization of over 500 x86 HP Gen 7 rack servers onto an\n'
-      + 'HP Blade Server-based VMware virtual farm, resulting in a 30% enhancement\n'
-      + 'in resource utilization and substantial operational cost reductions',
+    endDate: '2017-05-01',
+    summary:
+        '• Virtualization of over 500 x86 HP Gen 7 rack servers onto an HP Blade Server-based VMware virtual farm.'
+        + '• Achieved a 30% increase in resource utilization, significantly enhancing operational efficiency.'
+        + '• Designed user support system (Remedy based ITSM), resulting in a 25% increase in Incident Response efficiency.',
     highlights: [
       'Linux',
-      'VMware',
+      'Windows Server',
+      'Virtualization',
       'Hardware',
     ],
   },

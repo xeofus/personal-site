@@ -7,7 +7,7 @@ const Index = () => (
   <Main
     description={
       "Eddie Kann's personal website. Florida Tech graduate student, "
-      + 'ISC2 CC, USAF Airman.'
+      + 'CompTIA Security+, Linux+, ISC2 CC, USAF Airman.'
     }
   >
     <article className="post" id="index">
@@ -20,14 +20,13 @@ const Index = () => (
       </header>
       <p>
         {' '}
-        I’m a transitioning U.S. Air Force professional with an active
-        Secret Clearance and a passion for securing mission-critical
-        systems. Drawing on hands-on experience in Java, Linux, SQL, and
-        Cybersecurity I bring a blend of technical expertise,
-        leadership, and problem-solving to every project.<br />
-        As a Master’s in Computer Information Systems and fluent Russian
-        speaker, I’m also well-positioned to support threat intelligence or
-        translation needs.
+        I’m a transitioning USAF service member, Security+ and Linux+ certified,
+        with 8+ years across Windows/Linux administration, scripting, programming,
+        and cybersecurity. Active Secret clearance (TS/SCI eligible).
+        I’m eager to leverage these skills in cybersecurity engineering
+        or threat intelligence roles that advance national security missions. <br />
+        As a fluent Russian (DLPT 3) speaker,
+        I’m also well-positioned to support threat intelligence or translation needs.
         <br />
         <br />
         You can check out my{' '}

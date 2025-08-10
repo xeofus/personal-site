@@ -1,7 +1,7 @@
 const skills = [
   {
     title: 'Java',
-    competency: 4,
+    competency: 5,
     category: ['Java'],
   },
   {
@@ -10,14 +10,24 @@ const skills = [
     category: ['Linux'],
   },
   {
-    title: 'Cyber Security',
+    title: 'Cybersecurity',
     competency: 5,
-    category: ['Cyber Security'],
+    category: ['Cybersecurity'],
   },
   {
     title: 'SQL',
-    competency: 3,
+    competency: 5,
     category: ['SQL'],
+  },
+  {
+    title: 'Windows Server',
+    competency: 5,
+    category: ['Windows Server'],
+  },
+  {
+    title: 'Hardware',
+    competency: 5,
+    category: ['Hardware'],
   },
 ].map((skill) => ({ ...skill, category: skill.category.sort() }));
 
@@ -27,6 +37,8 @@ const colors = [
   '#6968b3',
   '#40494e',
   '#515dd4',
+  '#98a1f5',
+  '#51d4d0',
 ];
 
 const categories = [...new Set(skills.flatMap(({ category }) => category))]
